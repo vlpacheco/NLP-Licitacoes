@@ -20,6 +20,10 @@ Ainda, em termos para processamento de Linguagem Natural, devido o volume de tex
 
 </font>
 
+## <font color = purple> _*Como acompanhar os resultados?_ </font>
+As análises foram divididas em intervalos cronológicos de estudos e as suas respctivas pastas (anos de análise) encontram-se no repositório.
+Cada ano possui suas peculiaridades e conclusões individuas. Alguns padrões são reconhecidos ao longo dos anos e discutidos no notebooks.
+
  ## <font color = purple> _*Qual o próximo passo?_ </font>
 Com os resultados obtidos até então, sugere-se a aplicação de procedimentos específicos de Clusterização e algorítmos como o K-Means e Mean Shift. Ainda, análises que identifiquem a variabilidade dos componentes (colunas, como variáveis) poderiam ser implementadas, como o PCA.
   
