@@ -27,9 +27,8 @@ Cada ano possui suas peculiaridades e conclusões individuais. Alguns padrões s
  ## <font color = purple> _*Qual o próximo passo?_ </font>
 Com os resultados obtidos até então, sugere-se a aplicação de procedimentos específicos de Clusterização e algorítmos como o K-Means e Mean Shift. Ainda, análises que identifiquem a variabilidade dos componentes (colunas, como variáveis) poderiam ser implementadas, como o PCA.
   
-Assim como a implementação de modelos de Deep Learning e Machine Learning como Deep Neural Networks e Supporting Vector Machine, respectivamente, poderiam ser aplicados em um estudo aprofundado sobre o tema. Ainda, as especificidades temporais, na variação dos anos de análise, sugerem especificidades que podem ser analisadas em termos específicos.
+Assim como a implementação de modelos de Deep Learning e Machine Learning como Deep Neural Networks e Supporting Vector Machine, respectivamente, poderiam ser aplicados em um estudo aprofundado sobre o tema. Ainda, as especificidades temporais, na variação dos anos de análise, sugerem especificidades que podem ser analisadas em termos específicos. Ainda, a aplicação de Feature Engineering foi sugerida em variáveis numéricas para criação de indicador percentual do aproveitamento de licitações.
 
-  
 ## <font color = purple> Referências </font>
 Harris, C.R., Millman, K.J., van der Walt, S.J., Gommers, R., Virtanen, P., Cournapeau, D., Wieser, E., Taylor, J., Berg, S., Smith, N.J., Kern, R., Picus, M., Hoyer, S., van Kerkwijk, M.H., Brett, M., Haldane, A., del R’\io, J.F., Wiebe, M., Peterson, P., G’erard-Marchant, P., Sheppard, K., Reddy, T., Weckesser, W., Abbasi, H., Gohlke, C., Oliphant, T.E., 2020. Array programming with {NumPy}. Nature 585, 357–362. https://doi.org/10.1038/s41586-020-2649-2
 
