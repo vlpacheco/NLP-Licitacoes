@@ -4,25 +4,26 @@
 <font color = purple> O presente caso de estudo buscou avaliar padrões em comprar realizadas pelos estado do Rio Grande do Sul durante 4 anos: 2126, 2017, 2018 e 2019. Para isso, foram utilizados dados públicos oriundos do sistema LicitaCon do. TCE</font>
 
 ## <font color = purple> _*Como o estudo foi realizado?_ </font>
-<font color = purple> O trabalho foi realizado utilizando linguagem Python e IDE Jupyter Notebook. Há dois casos de aplicação de solucções propostas. O primeiro através de agrupamento e limpeza de dados numéricos, e o segundo através da aplicação de Natural Language Processing (NLP) TCE. O estudo decorreu de acordo com o fluxograma metodológico exposto na Figura abaixo: 
+<font color = purple> O trabalho foi realizado utilizando linguagem Python e IDE Jupyter Notebook. Há dois casos de aplicação de soluções propostas. O primeiro através de agrupamento e limpeza de dados numéricos, e o segundo através da aplicação de Natural Language Processing (NLP) TCE. O estudo decorreu de acordo com o fluxograma metodológico exposto na Figura abaixo: 
 </font>
 
 ![Alt Text](Figures/flux.jpeg) 
 
-A justificativa metodológica foi embasada na utilização de bibliotecas amplamente aplicáveis a estudos oriunddos da Linguagem Python. Dessa formaas bibliotecas NumPy (Harris et al., 2020), Pandas (McKinney, 2010) e Scikit-Learn (Pedregosa et al., 2011a) foram importadas para as etapas de pré-processamento e análise exploratória.
-Ainda, em termos para processamento de Linguagem Natural, devido o volume de textos obtidos nas colunas a serem analizadas, optou-se pela utilização do método proposto por Loper and Bird (2002) e por Nadkarni et al. (2011). Portanto, bibliotecas implementas via ambiente Python como "nltk" e "re".
+A justificativa metodológica foi embasada na utilização de bibliotecas amplamente aplicáveis a estudos oriunddos da Linguagem Python. Dessa forma, as bibliotecas NumPy (Harris et al., 2020), Pandas (McKinney, 2010) e Scikit-Learn (Pedregosa et al., 2011a) foram importadas para as etapas de pré-processamento e análise exploratória.
+Ainda, em termos para processamento de Linguagem Natural, devido o volume de textos obtidos nas colunas a serem analizadas, optou-se pela utilização do método proposto por Loper and Bird (2002) e por Nadkarni et al. (2011). Portanto, bibliotecas foram implementas via ambiente Python como "nltk" e "re".
 
 
 
 ## <font color = purple> _*Quais respostas foram encontradas?_ </font>
 
-<font color = purple> O estudo obteve a identificaçao de padrões em suma via duas alternativas: numérica e NLP. Com isso, para cada ano de estudo padrões foram identificados em termos de montantes de valores de lciitações, bem como relativos à identificação de padrões textuais. Este último, os padrões de processamento de linguagem natural - NLP, indicarem, em última análise, padrões de área de interesse de comprar, como por exemplo: alimentícia, agricultural, pnae (Programa Nacional de Alimentação Escolar); e também de itens específicos com maior frequências nas licitações, como por exemplo: farinha de trigo e fralda geriátrica.
+<font color = purple> O estudo obteve a identificaçao de padrões em suma via duas alternativas: numérica e NLP. Com isso, para cada ano de estudo padrões foram identificados em termos de montantes de valores de lciitações, bem como relativos à identificação de padrões textuais. Esse último, os padrões de processamento de linguagem natural - NLP, indicarem, em última análise, padrões de área de interesse de solicitações, como por exemplo: alimentícia, agricultural e pnae (Programa Nacional de Alimentação Escolar); e também de itens específicos com maior frequências nas licitações, como por exemplo: farinha de trigo e fralda geriátrica.
 
+ Observou-se também a padronização de alguns órgãos ao longo do período de análise, em termos de volume de licitações homologadas. Também há certas tendências de licitações em determinados anos, especialmente em 2018 e o ramo da construção civil (hipótese sugerida, para estudo futuro, é a verificação da relação com o período eleitoral brasileiro e licitações específicas ligadas à infraestrutura).
 </font>
 
 ## <font color = purple> _*Como acompanhar os resultados?_ </font>
 As análises foram divididas em intervalos cronológicos de estudos e as suas respctivas pastas (anos de análise) encontram-se no repositório.
-Cada ano possui suas peculiaridades e conclusões individuais. Alguns padrões são reconhecidos ao longo dos anos e discutidos no notebooks.
+Cada ano possui suas peculiaridades e conclusões individuais. Alguns padrões são reconhecidos ao longo dos anos e discutidos no notebooks. Ainda, sugere-se que a visualização das Figuras seja feita no próprio notebook ou seja realizado o download delas.
 
  ## <font color = purple> _*Qual o próximo passo?_ </font>
 Com os resultados obtidos até então, sugere-se a aplicação de procedimentos específicos de Clusterização e algorítmos como o K-Means e Mean Shift. Ainda, análises que identifiquem a variabilidade dos componentes (colunas, como variáveis) poderiam ser implementadas, como o PCA.
